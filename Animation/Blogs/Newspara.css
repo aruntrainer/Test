@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: BreveText, helvetica, sans-serif;
+    font-feature-settings: normal;
+    font-style: normal;
+    font-weight: bold;
+    background-color: yellow;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/*.................NAVBAR.................*/
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: yellow;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+#listmenu{
+    padding: 20px;
+}
+
+.reg a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    background: yellow;
+    border-radius: 8px;
+}
+
+.reg a:hover {
+    background: white;
+    border: 4px solid yellow;
+}
+#title {
+    font-size: 50px;
+    color: chocolate;
+    margin-left: 25px;
+    margin-right: 1200px;
+}
+
+#searchbox {
+    height: 25px;
+}
+
+#button {
+    font-size: 30px;
+    background-color: chocolate;
+    color: rgb(68, 124, 173);
+}
+hr{
+    color: aqua;
+    padding-top: 5px;
+}
+h1{
+    color: aqua;
+    margin-top: 5px;
+}
+
+#para{
+    width: 1800px;
+    text-align: justify;   
+}
