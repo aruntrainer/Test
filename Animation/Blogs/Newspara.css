@@ -1,14 +1,14 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {
     font-family: BreveText, helvetica, sans-serif;
     font-feature-settings: normal;
     font-style: normal;
-    font-weight: bold;
     background-color: yellow;
     color: black;
 }
@@ -17,13 +17,7 @@ a{
     text-decoration: none;
     color: yellow;
 }
-p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+
 /*.................NAVBAR.................*/
 
 header {
@@ -69,8 +63,9 @@ nav {
 }
 
 .reg a:hover {
-    background: white;
-    border: 4px solid yellow;
+    background: black;
+    color: yellow;
+    border: 1px solid yellow;
 }
 #title {
     font-size: 50px;
