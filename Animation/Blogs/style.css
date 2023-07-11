@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: BreveText, helvetica, sans-serif;
+    font-feature-settings: normal;
+    font-style: normal;
+    background-color: yellow;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+/*.................NAVBAR.................*/
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: yellow;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+#listmenu{
+    padding: 20px;
+}
+
+.reg a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    background: yellow;
+    border-radius: 8px;
+}
+
+.reg a:hover {
+    background: black;
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+/*.................BLOG-CONTENT.................*/
+
+.contentcontainer{
+    width: 100%;
+    height: 2000px;
+}
+.box{
+    width: 80%;
+    height: fit-content;
+    margin: 50px 10% 0px 10%;
+    background-color: black;
+    border-radius: 15px;
+}
+.Blog1{
+    width: 90%;
+    height: fit-content;
+    margin: 0px 5% 0px 5%;
+    padding-top: 50px;
+}
+.Blog{
+    width: 90%;
+    height: fit-content;
+    margin: 0px 5% 0px 5%;
+}
+
+.Blog a:hover{
+    text-decoration: 2px underline;
+    
+}
+.Blog1 a:hover{
+    text-decoration: 2px underline;
+}
+
+#img1{
+    width: 100%;
+    height: 600px;
+    background-image: url(/Blogs/img/Robert2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+#Blog1_H{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+
+#img2{
+    width: 100%;
+    height: 600px;
+    background-image: url(/Blogs/img/Chris2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+#Blog2_H{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+
+#img3{
+    width: 100%;
+    height: 600px;
+    background-image: url(/Blogs/img/Leo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+#Blog3_H{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+}

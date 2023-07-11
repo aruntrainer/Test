@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sumant's webPage</title>
+        <link rel="stylesheet" href="Form.css" type="text/css">
+    </head>
+    <body>
+        <!--.................Header.................-->
+
+        <header>
+            <nav>
+                <div class="menu">
+                    <ul>
+                        <li id="listmenu"><a href="/HomePage.html">HOME</a></li>
+                        <li id="listmenu"><a href="/News/NewsHome.html">NEWS</a></li>
+                        <li id="listmenu"><a href="/Blogs/BlogsHome.html">BLOGS</a></li>
+                        <li id="listmenu"><a href="/Form/Form.html">FORMS</a></li>
+                        <li id="listmenu"><a href="/PalindromChecker/Palindrom.html">PALINDROME</a></li>
+                    </ul>
+                </div>
+                <div class="reg">
+                    <a href="/Form/Form.html">REGISTER</a>
+                </div>
+            </nav>
+        </header>
+
+        <div class="form">
+
+            <div class="register">
+                <h2>Register Here</h2>
+                <form id="register" method="post">
+                    <label>First Name :</label>
+                    <br>
+                    <input type="text" name="fname" id="name"
+                        placeholder="Enter Your First Name">
+                    <br><br>
+                    <label>Last Name : </label>
+                    <br>
+                    <input type="text" name="lname" id="name"
+                        placeholder="Enter Your Last Name">
+                    <br><br>
+                    <label>Your Age :</label>
+                    <br>
+                    <input type="number" name="age" id="name"
+                        placeholder="How Old are You ?">
+                    <br><br>
+                    <label>Email :</label>
+                    <br><input type="email" name="email" id="email"
+                        placeholder="Enter Your Valid Email">
+                    <br><br>
+                    <label>Gender :</label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" id="male">
+                    &nbsp;
+                    <span id="male">Male</span>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" id="female">
+                    &nbsp;
+                    <span id="female">Female</span>
+                    <br><br>
+                    <label>Known Language :</label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="lang" id="hindi">
+                    &nbsp;
+                    <span id="hindi">Hindi</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="lang" id="eng">
+                    &nbsp;
+                    <span id="eng">English</span>
+                    <br><br>
+                    <input type="submit" value="submit" name="submit"
+                        id="submit">
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>

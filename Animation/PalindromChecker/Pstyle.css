@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: BreveText, helvetica, sans-serif;
+    font-feature-settings: normal;
+    font-style: normal;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+/*.................NAVBAR.................*/
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: yellow;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+#listmenu {
+    padding: 20px;
+}
+
+.reg a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    background: yellow;
+    border-radius: 8px;
+}
+
+.reg a:hover {
+    background: black;
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+/*...............PALINDROME...............*/
+
+.M {
+    width: 90%;
+    height: fit-content;
+    background-color: yellow;
+    margin: 5%;
+}
+
+.Pcontainer {
+    width: 90%;
+    height: fit-content;
+    background-color: black;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+.P {
+    width: 100%;
+    height: 500px;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#input{
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    font-size: 40px;
+    border-radius: 10px;
+    border: 4px solid yellow;
+    text-align: center;
+}
+
+#btn {
+    width:fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 30px;
+    background-color: yellow;
+    color: black;
+}
+
+#ans{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding-top: 30px;
+    font-size: 30px;
+    background-color: yellow;
+    color: black;
+}

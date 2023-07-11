@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: BreveText, helvetica, sans-serif;
+    font-feature-settings: normal;
+    font-style: normal;
+    background-color: yellow;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+/*.................NAVBAR.................*/
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: yellow;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+#listmenu{
+    padding: 20px;
+}
+
+.reg a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    background: yellow;
+    border-radius: 8px;
+}
+
+.reg a:hover {
+    background: black;
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+/*.................MAIN-BODY.................*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.Bcon{
+    width: 70%;
+    height: fit-content;
+    display: inline-block;
+    background-color: black;
+    color: yellow;
+    margin: 0px 25px 25px 25px;
+    padding: 50px;
+    text-align: justify;
+}
+
+h1{
+    font-size: 37px;
+}
+
+.img1{
+    width: 100%;
+    height: 600px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-image: url(/Blogs/img/Robert1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(/Blogs/img/Robert2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img3{
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(/Blogs/img/Chris2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img4{
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(/Blogs/img/Chris.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img5{
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(/Blogs/img/Leo1.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img6{
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(/Blogs/img/Leo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#para{
+    font-size: 20px;
+}
+
+/*.................SIDE-ELEMENT.................*/
+
+div.sidenews{
+    width: 30%;
+    height: 1500px;
+    margin: 0px 30px 0px 30px;
+    position: sticky;
+    top: 100px;
+    display: inline-block;
+}
+
+.sideHeading{
+    width: 100%;
+    height: fit-content;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px 0px 10px 0px;
+    margin: 50px 0px 10px 0px;
+}
+
+.sidenews ul {
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px;
+}
+.sidenews ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin: 20px 0px 30px 0px;
+}
+
+.sideContent{
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(134, 132, 132);
+    padding-left: 10px;
+}
+
+.sidenews ul li a{
+    border-radius: 10px;
+    color: black;
+}
+.sideContent p {
+    font-size: 20px;
+}
+#sideName{
+    margin-top: 10px;
+}
+
+.sidenews ul li a:hover {
+    background-color: black;
+    color: yellow;
+}

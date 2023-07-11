@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: BreveText, helvetica, sans-serif;
+    font-feature-settings: normal;
+    font-style: normal;
+    font-weight: bold;
+    background-color: yellow;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/*.................NAVBAR.................*/
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: yellow;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+#listmenu{
+    padding: 20px;
+}
+
+.reg a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    background: yellow;
+    border-radius: 8px;
+}
+
+.reg a:hover {
+    background: black;
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+/*..................MAIN-BODY..................*/
+
+.body {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+/*...................ELEMENTS...................*/
+
+.heading {
+    width: 100%;
+    height: 90px;
+    padding-top: 40px;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+.contentcontainer {
+    width: 70%;
+    height: 1500px;
+    display: inline-block;
+    margin: 0px 25px 0px 25px;
+}
+
+.blog1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+#img1 {
+    width: 35%;
+    height: 200px;
+    background-image: url(Img/img1.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#img2 {
+    width: 35%;
+    height: 200px;
+    background-image: url(Img/img2.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#img3 {
+    width: 35%;
+    height: 200px;
+    background-image: url(Img/img3.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#img4 {
+    width: 35%;
+    height: 200px;
+    background-image: url(Img/img4.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#img5 {
+    width: 35%;
+    height: 200px;
+    background-image: url(Img/img5.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#img6 {
+    width: 35%;
+    height: 200px;
+    background-image: url(Img/img6.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#content {
+    width: 65%;
+    height: 200px;
+    padding-left: 15px;
+    margin-left: 15px;
+    background-color: black;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.contentcontainer a{
+    width: 1013.44px;
+    height: 200px;
+}
+.contentcontainer a:hover{
+    text-decoration: underline;
+}
+
+#contenttext {
+    font-size: 11px;
+    font-weight: 600;
+}
+#contenttextB{
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+#contenttext1 {
+    padding: 5px 0px 5px 0px;
+    font-size: 24px;
+    margin: 0;
+}
+
+/*.................SIDE-ELEMENT.................*/
+
+div.sidenews{
+    width: 30%;
+    height: 1500px;
+    margin: 0px 30px 0px 30px;
+    position: -webkit-sticky;
+    position: -ms-sticky;
+    position: sticky;
+    top: 60px;
+    display: inline-block;
+}
+
+.sideHeading{
+    width: 100%;
+    height: fit-content;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px 0px 10px 0px;
+    margin: 50px 0px 10px 0px;
+}
+
+.sidenews ul {
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px;
+}
+.sidenews ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin: 20px 0px 30px 0px;
+}
+
+.sideContent{
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(134, 132, 132);
+    padding-left: 10px;
+}
+
+.sidenews ul li a{
+    border-radius: 10px;
+    color: black;
+}
+.sideContent p {
+    font-size: 20px;
+}
+#sideName{
+    margin-top: 10px;
+}
+
+.sidenews ul li a:hover {
+    background-color: black;
+    color: yellow;
+}
+
+
+
+/*................MAIN-NEWS-PAGE................*/
+
+
+#creator{
+    padding: 7px;
+    background-color: black;
+    color: yellow;
+}
+.creatorspan{
+    padding-top: 30px;
+    display: inline-block;
+    margin-left: 45px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.Mnavitem li{
+    margin-left: 20px;
+}
+
+.Mheading {
+    width: 95%;
+    height: 90px;
+    padding-top: 10px;
+    font-size: 40px;
+    color: black;
+    margin-left: 65px;
+}
+
+#Mnewsimg1{
+    width: 920px;
+    height: 610px;
+    background-image: url(Img/img1.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 65px;
+}
+#Mnewsimg2{
+    width: 920px;
+    height: 610px;
+    background-image: url(Img/img2.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 65px;
+}
+#Mnewsimg3{
+    width: 920px;
+    height: 610px;
+    background-image: url(Img/img3.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 65px;
+}
+#Mnewsimg4{
+    width: 920px;
+    height: 610px;
+    background-image: url(Img/img4.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 65px;
+}
+#Mnewsimg5{
+    width: 920px;
+    height: 610px;
+    background-image: url(Img/img5.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 65px;
+}
+#Mnewsimg6{
+    width: 920px;
+    height: 610px;
+    background-image: url(Img/img6.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 65px;
+}
+
+#Mnewsimgd{
+    width: 920px;
+    height: 40px;
+    padding: 10px 0px 0px 65px;
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+#Mcontent{
+    width: 680px;
+    font-size: 19px;
+    font-weight: 200;
+    padding-top: 70px;
+    padding-left: 200px;
+    text-align: justify;
+}

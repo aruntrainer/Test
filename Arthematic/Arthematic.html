@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="body">
+
+      <pre class="heading">A=2  B=3  C=4  D=6  X=5  Y=6</pre>
+
+      <div class="container">
+
+        <div class="row">
+          <div class="add">
+            <div>Click for Addition of A and B</div>
+            <button onclick="add()">ADDITION</button>
+            <div id="add-ans"></div>
+          </div>
+
+          <div class="sub">
+            <div>Click for Subtraction of B from A</div>
+            <button onclick="sub()">SUBTRACTION</button>
+            <div id="sub-ans"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="mul">
+            <div>Click for Multiplication of A and B</div>
+            <button onclick="mul()">MULTIPLICATION</button>
+            <div id="mul-ans"></div>
+          </div>
+
+          <div class="expo">
+            <div>Click for Exponential value of A to B</div>
+            <button onclick="expo()">EXPONENT</button>
+            <div id="expo-ans"></div>
+          </div>
+
+          <div class="div">
+            <div>Click for Division of Y from A</div>
+            <button onclick="div()">DIVISION</button>
+            <div id="div-ans"></div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="mod">
+            <div>Click for Modulus value of X from A</div>
+            <button onclick="mod()">MODULUS</button>
+            <div id="mod-ans"></div>
+          </div>
+
+          <div class="inc">
+            <div>Click for Increment value of C</div>
+            <button onclick="inc()">INCREMENT</button>
+            <div id="inc-ans"></div>
+          </div>
+
+          <div class="dec">
+            <div>Click for Decrement value of D</div>
+            <button onclick="dec()">DECREMENT</button>
+            <div id="dec-ans"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
