@@ -1,0 +1,39 @@
+h3{
+     
+   color:rgba(200, 5, 38, 0.847);
+}
+
+p{
+    text-align: center;
+    color: purple;
+}
+h3 {
+    text-align:center;
+    text-decoration:underline;
+}
+
+h3{
+    font-weight:bold;
+}
+a {
+    text-decoration: black underline;
+}
+
+
+button{
+    color: white;
+    background-color: green;
+}
+body{
+    background-color: white;
+}
+#Heading1 {
+    color: darkblue;
+}
+#box {
+    background-color: blue;
+}
+
+.heading {
+    color: red;
+}

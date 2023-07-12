@@ -1,0 +1,19 @@
+
+
+h1 {
+    color:blue;
+    text-align: center;
+}
+.arc{
+    color : blue;
+    background-color: white;
+}
+div{
+    height: 360px;
+    width: 400px;
+}
+#img1{
+    background-image: url(absolutvision-WYd_PkCa1BY-unsplash.jpg);
+    background-size: contain;
+    border: 2px solid black;
+}
