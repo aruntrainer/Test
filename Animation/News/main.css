@@ -103,6 +103,12 @@ nav {
     margin: 0px 25px 0px 25px;
 }
 
+.contentcontainer1 {
+    background-color: black;
+    color: yellow;
+    margin-left: 90px;
+}
+
 .blog1 {
     display: flex;
     flex-direction: row;
@@ -281,67 +287,70 @@ nav ul li {
 }
 
 .Mheading {
-    width: 95%;
+    width: 1454.200px;
     height: 90px;
-    padding-top: 10px;
     font-size: 40px;
-    color: black;
-    margin-left: 65px;
+    background-color: black;
+    color: yellow;
+    display: flex;
+    padding-left: 65px;
+    align-items: center;
+    align-content: center;
 }
 
 #Mnewsimg1{
-    width: 920px;
+    width: 90%;
     height: 610px;
     background-image: url(Img/img1.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    margin-left: 65px;
+    margin: 5%;
 }
 #Mnewsimg2{
-    width: 920px;
+    width: 90%;
     height: 610px;
     background-image: url(Img/img2.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    margin-left: 65px;
+    margin: 5%;
 }
 #Mnewsimg3{
-    width: 920px;
+    width: 90%;
     height: 610px;
     background-image: url(Img/img3.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    margin-left: 65px;
+    margin: 5%;
 }
 #Mnewsimg4{
-    width: 920px;
+    width: 90%;
     height: 610px;
     background-image: url(Img/img4.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    margin-left: 65px;
+    margin: 5%;
 }
 #Mnewsimg5{
-    width: 920px;
+    width: 90%;
     height: 610px;
     background-image: url(Img/img5.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    margin-left: 65px;
+    margin: 5%;
 }
 #Mnewsimg6{
-    width: 920px;
+    width: 90%;
     height: 610px;
     background-image: url(Img/img6.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    margin-left: 65px;
+    margin: 5%;
 }
 
 #Mnewsimgd{
